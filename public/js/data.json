@@ -1,0 +1,36 @@
+{
+    "utilisateurs": {
+      "USER_ID_1": {
+        "email": "user1@example.com",
+        "name": "User One",
+        "createdAt": "2024-11-22T10:30:00Z"
+      },
+      "USER_ID_2": {
+        "email": "user2@example.com",
+        "name": "User Two",
+        "createdAt": "2024-11-22T10:35:00Z"
+      }
+    },
+    "recettes": {
+      "USER_ID_1": {
+        "RECETTE_ID_1": {
+          "title": "Gâteau au chocolat",
+          "ingredients": ["Sucre", "Farine", "Cacao"],
+          "instructions": "Mélanger et cuire à 180°C pendant 30 minutes."
+        },
+        "RECETTE_ID_2": {
+          "title": "Salade César",
+          "ingredients": ["Salade", "Poulet", "Croutons", "Sauce César"],
+          "instructions": "Mélanger tous les ingrédients et servir frais."
+        }
+      },
+      "USER_ID_2": {
+        "RECETTE_ID_3": {
+          "title": "Tarte aux pommes",
+          "ingredients": ["Pommes", "Farine", "Beurre", "Sucre"],
+          "instructions": "Préparer une pâte brisée, ajouter les pommes et cuire à 200°C."
+        }
+      }
+    }
+  }
+  
